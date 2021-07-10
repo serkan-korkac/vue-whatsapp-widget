@@ -43,7 +43,7 @@ Example: `44222222` where 44 is the UK internacional code.
 | phoneNumber   | `string` | `''`                                      | WhatsApp [intenational number](https://faq.whatsapp.com/en/general/21016748) which will receive the message. |
 | textReply | `string` | `'Typically replies within an hour'`        |
 | messages       | `array` | `'["Hi there 👋 How can I help you ?"]'` | With `\n` you can create a break-line.                                                                       |
-| companyName   | `string` | `'Widget'`                               | Your company name?)                                                                                          |
+| companyName   | `string` | `'Widget'`                               | Your company  name?                                                                                          |
 | companyLogo    | `string` | `''`                                    | Your companyLogo                                                                                  |
 
 ## License

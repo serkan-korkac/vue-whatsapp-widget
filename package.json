@@ -1,13 +1,13 @@
 {
   "name": "vue-whatsapp-widget",
-  "version": "0.2.0",
+  "version": "0.2.3",
   "private": false,
   "license": "MIT",
   "repository": "srkn65/vue-whatsapp-widget",
   "description": "WhatsApp chat widget for vue app",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name vueWhatsappWidget ./src/components/Widget.vue ",
+    "build": "vue-cli-service build --target lib --name vueWhatsappWidget ./src/components/Widget.vue",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
