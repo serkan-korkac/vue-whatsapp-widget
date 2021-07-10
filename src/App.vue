@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <Widget phoneNumber="+905326694688" />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Widget from "./components/Widget.vue";
 
 export default {
-  name: "App",
+  name: "WhastAppWidget",
   components: {
-    HelloWorld,
+    Widget,
   },
 };
 </script>
