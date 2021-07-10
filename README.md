@@ -2,7 +2,7 @@
 
 > WhatsApp chat widget for your website and your vue app
 
-[![NPM](https://img.shields.io/npm/v/react-whatsapp-widget.svg)](https://www.npmjs.com/package/react-whatsapp-widget) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-whatsapp-widget.svg)](https://www.npmjs.com/package/vue-whatsapp-widget)
 
 ![Custom settings](https://i.ibb.co/FgR2NYS/widget-PNG.png.png)
 
