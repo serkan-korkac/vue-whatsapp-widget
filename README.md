@@ -2,6 +2,10 @@
 
 > WhatsApp chat widget for your website and your vue app
 
+[![NPM](https://img.shields.io/npm/v/react-whatsapp-widget.svg)](https://www.npmjs.com/package/react-whatsapp-widget) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
+![Custom settings](https://i.ibb.co/FgR2NYS/widget-PNG.png.png)
+
 ## What is vue-whatsapp-widget?
 
 This is a very simple floating WhatsApp button widget. In the current situation with the pandemic 2020 events, most of the small businesses have to move to online presence. A wey to short the communication with your customers is using a widget like this.
