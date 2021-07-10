@@ -114,7 +114,7 @@ export default {
     </button>
   </div>
 </template>
-<style lang="scss">
+<style>
 button {
   outline: none;
 }
@@ -137,9 +137,7 @@ h1 {
   color: #fff;
   border-radius: 50px;
 }
-
 /* CSS Multiple Whatsapp Chat */
-
 #whatsapp-chat {
   box-sizing: border-box !important;
   outline: none !important;
@@ -155,9 +153,9 @@ h1 {
   animation-duration: 1s;
   transform: scale(1);
 }
-
 button.blantershow-chat {
-  /*   background: #009688; */
+  /* background: #009688;
+	 */
   background: #fff;
   color: #404040;
   position: fixed;
@@ -174,11 +172,9 @@ button.blantershow-chat {
   box-shadow: 0 10px 10px rgba(32, 33, 36, 0.28);
   cursor: pointer;
 }
-
 button.blantershow-chat svg {
   transform: scale(1.2);
 }
-
 .whatsapp-chat-header {
   background: #095e54;
   display: inline-flex;
@@ -195,32 +191,32 @@ button.blantershow-chat svg {
   height: 50px;
   float: left;
   margin: 0 10px 0 0;
-  border: 1px solid rgba(black, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
 }
 .whatsapp-chat-avatar {
   position: relative;
-  &::after {
-    content: "";
-    bottom: 0px;
-    right: 0px;
-    width: 12px;
-    height: 12px;
-    box-sizing: border-box;
-    background-color: #4ad504;
-    display: block;
-    position: relative;
-    z-index: 1;
-    border-radius: 50%;
-    border: 2px solid #095e54;
-    left: 40px;
-    top: 38px;
-  }
-  img {
-    border-radius: 100%;
-    width: 50px;
-    float: left;
-    margin: 0 10px 0 0;
-  }
+}
+.whatsapp-chat-avatar::after {
+  content: "";
+  bottom: 0px;
+  right: 0px;
+  width: 12px;
+  height: 12px;
+  box-sizing: border-box;
+  background-color: #4ad504;
+  display: block;
+  position: relative;
+  z-index: 1;
+  border-radius: 50%;
+  border: 2px solid #095e54;
+  left: 40px;
+  top: 38px;
+}
+.whatsapp-chat-avatar img {
+  border-radius: 100%;
+  width: 50px;
+  float: left;
+  margin: 0 10px 0 0;
 }
 .whatsapp-chat-name-block {
   text-align: left;
@@ -248,12 +244,13 @@ span.my-number {
   display: block;
 }
 /* .blanter-msg {
-  color: #444;
-  padding: 20px;
-  font-size: 12.5px;
-  text-align: center;
-  border-top: 1px solid #ddd;
-} */
+	 color: #444;
+	 padding: 20px;
+	 font-size: 12.5px;
+	 text-align: center;
+	 border-top: 1px solid #ddd;
+}
+ */
 textarea#chat-input {
   border: none;
   font-family: "Arial", sans-serif;
@@ -263,21 +260,18 @@ textarea#chat-input {
   padding: 8px;
   font-size: 14px;
 }
-
 button#send-it {
   width: 30px;
   font-weight: 700;
   border-color: transparent;
   cursor: pointer;
   background: #eee;
-
-  svg {
-    fill: #a6a6a6;
-    height: 20px;
-    width: 20px;
-  }
 }
-
+button#send-it svg {
+  fill: #a6a6a6;
+  height: 20px;
+  width: 20px;
+}
 .start-chat .blanter-msg {
   display: flex;
   height: 35px;
@@ -290,43 +284,39 @@ a.close-chat {
   font-size: 30px;
   cursor: pointer;
 }
-
 @keyframes ZpjSY {
   0% {
-    background-color: rgb(182, 181, 186);
+    background-color: #b6b5ba;
   }
   15% {
-    background-color: rgb(17, 17, 17);
+    background-color: #111;
   }
   25% {
-    background-color: rgb(182, 181, 186);
+    background-color: #b6b5ba;
   }
 }
-
 @keyframes hPhMsj {
   15% {
-    background-color: rgb(182, 181, 186);
+    background-color: #b6b5ba;
   }
   25% {
-    background-color: rgb(17, 17, 17);
+    background-color: #111;
   }
   35% {
-    background-color: rgb(182, 181, 186);
+    background-color: #b6b5ba;
   }
 }
-
 @keyframes iUMejp {
   25% {
-    background-color: rgb(182, 181, 186);
+    background-color: #b6b5ba;
   }
   35% {
-    background-color: rgb(17, 17, 17);
+    background-color: #111;
   }
   45% {
-    background-color: rgb(182, 181, 186);
+    background-color: #b6b5ba;
   }
 }
-
 @keyframes showhidden {
   from {
     transform: scale(0.5);
@@ -360,32 +350,28 @@ a.close-chat {
   transform: scale(1);
   opacity: 1;
 }
-
 .whatsapp-chat-body {
   padding: 20px 20px 20px 10px;
-  background-color: rgb(230, 221, 212);
+  background-color: #e6ddd4;
   position: relative;
-  &::before {
-    display: block;
-    position: absolute;
-    content: "";
-    left: 0px;
-    top: 0px;
-    height: 100%;
-    width: 100%;
-    z-index: 0;
-    opacity: 0.08;
-    background-image: url("https://elfsight.com/assets/chats/patterns/whatsapp.png");
-    // background-image: url(https://res.cloudinary.com/eventbree/image/upload/v1575782560/Widgets/whatsappbg_opt.jpg);
-  }
 }
-
+.whatsapp-chat-body::before {
+  display: block;
+  position: absolute;
+  content: "";
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  opacity: 0.08;
+  background-image: url("https://elfsight.com/assets/chats/patterns/whatsapp.png");
+}
 .quaMo {
   z-index: 1;
 }
-
 .vzZsj {
-  background-color: rgb(255, 255, 255);
+  background-color: #fff;
   width: 52.5px;
   border-radius: 16px;
   display: flex;
@@ -399,12 +385,10 @@ a.close-chat {
   z-index: 1;
   box-shadow: rgba(0, 0, 0, 0.13) 0px 1px 0.5px;
 }
-
 .Yvjha {
   position: relative;
   display: flex;
 }
-
 .ixsrax {
   height: 5px;
   width: 5px;
@@ -416,15 +400,14 @@ a.close-chat {
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   top: 0px;
-  background-color: rgb(158, 157, 162);
+  background-color: #9e9da2;
   animation-name: ZpjSY;
 }
-
 .dRvxoz {
   height: 5px;
   width: 5px;
   margin: 0px 2px;
-  background-color: rgb(182, 181, 186);
+  background-color: #b6b5ba;
   border-radius: 50%;
   display: inline-block;
   position: relative;
@@ -434,10 +417,9 @@ a.close-chat {
   top: 0px;
   animation-name: hPhMsj;
 }
-
 .kAZgZq {
   padding: 7px 14px 6px;
-  background-color: rgb(255, 255, 255);
+  background-color: #fff;
   border-radius: 0px 12px 12px;
   position: relative;
   transition: all 0.3s ease 0s;
@@ -447,20 +429,19 @@ a.close-chat {
   box-shadow: rgba(0, 0, 0, 0.13) 0px 1px 0.5px;
   margin-top: 20px;
   max-width: calc(100% - 66px);
-  &::before {
-    position: absolute;
-    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAmCAMAAADp2asXAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACQUExURUxpccPDw9ra2m9vbwAAAAAAADExMf///wAAABoaGk9PT7q6uqurqwsLCycnJz4+PtDQ0JycnIyMjPf3915eXvz8/E9PT/39/RMTE4CAgAAAAJqamv////////r6+u/v7yUlJeXl5f///5ycnOXl5XNzc/Hx8f///xUVFf///+zs7P///+bm5gAAAM7Ozv///2fVensAAAAvdFJOUwCow1cBCCnqAhNAnY0WIDW2f2/hSeo99g1lBYT87vDXG8/6d8oL4sgM5szrkgl660OiZwAAAHRJREFUKM/ty7cSggAABNFVUQFzwizmjPz/39k4YuFWtm55bw7eHR6ny63+alnswT3/rIDzUSC7CrAziPYCJCsB+gbVkgDtVIDh+DsE9OTBpCtAbSBAZSEQNgWIygJ0RgJMDWYNAdYbAeKtAHODlkHIv997AkLqIVOXVU84AAAAAElFTkSuQmCC");
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    content: "";
-    top: 0px;
-    left: -12px;
-    width: 12px;
-    height: 19px;
-  }
 }
-
+.kAZgZq::before {
+  position: absolute;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAmCAMAAADp2asXAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACQUExURUxpccPDw9ra2m9vbwAAAAAAADExMf///wAAABoaGk9PT7q6uqurqwsLCycnJz4+PtDQ0JycnIyMjPf3915eXvz8/E9PT/39/RMTE4CAgAAAAJqamv////////r6+u/v7yUlJeXl5f///5ycnOXl5XNzc/Hx8f///xUVFf///+zs7P///+bm5gAAAM7Ozv///2fVensAAAAvdFJOUwCow1cBCCnqAhNAnY0WIDW2f2/hSeo99g1lBYT87vDXG8/6d8oL4sgM5szrkgl660OiZwAAAHRJREFUKM/ty7cSggAABNFVUQFzwizmjPz/39k4YuFWtm55bw7eHR6ny63+alnswT3/rIDzUSC7CrAziPYCJCsB+gbVkgDtVIDh+DsE9OTBpCtAbSBAZSEQNgWIygJ0RgJMDWYNAdYbAeKtAHODlkHIv997AkLqIVOXVU84AAAAAElFTkSuQmCC");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  top: 0px;
+  left: -12px;
+  width: 12px;
+  height: 19px;
+}
 .bMIBDo {
   font-size: 13px;
   font-weight: 700;
@@ -468,15 +449,13 @@ a.close-chat {
   text-align: left;
   color: rgba(0, 0, 0, 0.4);
 }
-
 .iSpIQi {
   font-size: 14px;
   line-height: 19px;
   margin-top: 4px;
-  color: rgb(17, 17, 17);
+  color: #111;
   text-align: left;
 }
-
 .cqCDVm {
   text-align: right;
   margin-top: 4px;

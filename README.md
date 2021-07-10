@@ -1,9 +1,6 @@
 # vue-whatsapp-widget
 
 > WhatsApp chat widget for your website and your vue app
-
-[![NPM](https://img.shields.io/npm/v/react-whatsapp-widget.svg)](https://www.npmjs.com/package/vue-whatsapp-widget)
-
 ![Custom settings](https://i.ibb.co/FgR2NYS/widget-PNG.png.png)
 
 ## What is vue-whatsapp-widget?
