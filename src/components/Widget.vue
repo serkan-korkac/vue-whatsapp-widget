@@ -71,7 +71,7 @@ export default {
           pattern="https://elfsight.com/assets/chats/patterns/whatsapp.png"
           class="WhatsappChat__Component-sc-Yvjha whatsapp-chat-body"
         >
-          <Message :messages="messages" />
+          <Message :messages="messages" :companyName="companyName" />
         </div>
 
         <div class="blanter-msg">

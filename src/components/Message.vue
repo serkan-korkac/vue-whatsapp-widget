@@ -25,6 +25,10 @@ export default {
       type: Array,
       required: true,
     },
+    companyName: {
+      type: String,
+      default: "",
+    },
   },
   computed: {
     time() {

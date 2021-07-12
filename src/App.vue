@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Widget phoneNumber="+905326694688" />
+    <Widget phoneNumber="+11111111111" />
   </div>
 </template>
 
